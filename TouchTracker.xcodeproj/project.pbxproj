@@ -19,6 +19,9 @@
 		C85BFD3B18EE49A000C3EA66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85BFD2318EE49A000C3EA66 /* UIKit.framework */; };
 		C85BFD4318EE49A000C3EA66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C85BFD4118EE49A000C3EA66 /* InfoPlist.strings */; };
 		C85BFD4518EE49A000C3EA66 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C85BFD4418EE49A000C3EA66 /* TouchTrackerTests.m */; };
+		C85BFD5018EE49B900C3EA66 /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C85BFD4F18EE49B900C3EA66 /* BNRLine.m */; };
+		C85BFD5318EE49F900C3EA66 /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C85BFD5218EE49F900C3EA66 /* BNRDrawView.m */; };
+		C85BFD5618EE4A5F00C3EA66 /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C85BFD5518EE4A5F00C3EA66 /* BNRDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		C85BFD4018EE49A000C3EA66 /* TouchTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		C85BFD4218EE49A000C3EA66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C85BFD4418EE49A000C3EA66 /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
+		C85BFD4E18EE49B900C3EA66 /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
+		C85BFD4F18EE49B900C3EA66 /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
+		C85BFD5118EE49F900C3EA66 /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
+		C85BFD5218EE49F900C3EA66 /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
+		C85BFD5418EE4A5F00C3EA66 /* BNRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawViewController.h; sourceTree = "<group>"; };
+		C85BFD5518EE4A5F00C3EA66 /* BNRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +120,12 @@
 				C85BFD2F18EE49A000C3EA66 /* BNRAppDelegate.m */,
 				C85BFD3118EE49A000C3EA66 /* Images.xcassets */,
 				C85BFD2618EE49A000C3EA66 /* Supporting Files */,
+				C85BFD4E18EE49B900C3EA66 /* BNRLine.h */,
+				C85BFD4F18EE49B900C3EA66 /* BNRLine.m */,
+				C85BFD5118EE49F900C3EA66 /* BNRDrawView.h */,
+				C85BFD5218EE49F900C3EA66 /* BNRDrawView.m */,
+				C85BFD5418EE4A5F00C3EA66 /* BNRDrawViewController.h */,
+				C85BFD5518EE4A5F00C3EA66 /* BNRDrawViewController.m */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -241,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C85BFD2C18EE49A000C3EA66 /* main.m in Sources */,
+				C85BFD5618EE4A5F00C3EA66 /* BNRDrawViewController.m in Sources */,
+				C85BFD5018EE49B900C3EA66 /* BNRLine.m in Sources */,
 				C85BFD3018EE49A000C3EA66 /* BNRAppDelegate.m in Sources */,
+				C85BFD5318EE49F900C3EA66 /* BNRDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +456,7 @@
 				C85BFD4A18EE49A000C3EA66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C85BFD4B18EE49A000C3EA66 /* Build configuration list for PBXNativeTarget "TouchTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +465,7 @@
 				C85BFD4D18EE49A000C3EA66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
